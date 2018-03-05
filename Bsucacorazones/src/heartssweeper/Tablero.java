@@ -24,11 +24,10 @@ public class Tablero {
         for (fila = 0; fila < largo; fila++) {
             for (columna = 0; columna < ancho; columna++) {
                 misCeldas[fila][columna] = new Celda();
-
             }
         }
-
         Sembrador miTrabajador = new Sembrador();
         miTrabajador.sembrarCorazones(misCeldas, 50);
+        
     }
 }

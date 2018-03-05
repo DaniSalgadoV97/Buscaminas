@@ -20,6 +20,7 @@ public class Heartssweeper {
         miTablero=new Tablero(10,10);
         
         
+        
     }
     
 }
